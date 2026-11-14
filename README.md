@@ -45,7 +45,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 ## Phase 1 Progress
 
 - [x] Lesson 1: Understanding HTTP and How the Web Works
-- [ ] Lesson 2: HTTP Requests and Responses
+- [x] Lesson 2: HTTP Requests and Responses
 - [ ] Lesson 3: HTTP Methods
 - [ ] Lesson 4: HTTP Status Codes
 - [ ] Lesson 5: HTTP Headers and Message Bodies
