@@ -48,7 +48,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 - [x] Lesson 2: HTTP Requests and Responses
 - [x] Lesson 3: HTTP Methods
 - [x] Lesson 4: HTTP Status Codes
-- [ ] Lesson 5: HTTP Headers and Message Bodies
+- [x] Lesson 5: HTTP Headers and Message Bodies
 - [ ] Lesson 6: Query Parameters and Path Variables
 - [ ] Lesson 7: Cookies, Sessions and Stateless Communication
 - [ ] Lesson 8: HTTP vs HTTPS
