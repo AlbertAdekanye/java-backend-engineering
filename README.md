@@ -51,7 +51,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 - [x] Lesson 5: HTTP Headers and Message Bodies
 - [x] Lesson 6: Query Parameters and Path Variables
 - [x] Lesson 7: Cookies, Sessions and Stateless Communication
-- [ ] Lesson 8: HTTP vs HTTPS
+- [x] Lesson 8: HTTP vs HTTPS
 - [ ] Lesson 9: DNS, Ports, TCP and TLS
 - [ ] Lesson 10: Build a Java HTTP Client/Server Application
 
