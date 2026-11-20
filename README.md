@@ -53,7 +53,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 - [x] Lesson 7: Cookies, Sessions and Stateless Communication
 - [x] Lesson 8: HTTP vs HTTPS
 - [x] Lesson 9: DNS, Ports, TCP and TLS
-- [ ] Lesson 10: Build a Java HTTP Client/Server Application
+- [x] Lesson 10: Build a Java HTTP Client/Server Application
 
 ## Main Portfolio Project
 
