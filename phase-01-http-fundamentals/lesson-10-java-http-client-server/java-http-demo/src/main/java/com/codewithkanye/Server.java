@@ -3,6 +3,7 @@ package com.codewithkanye;
 
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpExchange;
+import java.nio.charset.StandardCharsets;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -39,6 +40,18 @@ public class Server {
             exchange.close();
         });
 
+        server.createContext("/api/messages", exchange -> {
+
+          // Read the message sent by the client
+          String requestBody = new String(
+            exchange.getRequestBody().readAllBytes(),
+            StandardCharsets.UTF_8
+          );
+
+          // Prepare the response
+          
+        });
+        
         // Start server
         server.start();
 
