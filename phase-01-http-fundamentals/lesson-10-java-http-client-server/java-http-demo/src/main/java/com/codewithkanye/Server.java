@@ -1,12 +1,10 @@
-
 package com.codewithkanye;
-
-import com.sun.net.httpserver.HttpServer;
-import com.sun.net.httpserver.HttpExchange;
-import java.nio.charset.StandardCharsets;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
+import java.nio.charset.StandardCharsets;
+
+import com.sun.net.httpserver.HttpServer;
 
 public class Server {
 
