@@ -59,7 +59,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 
 - [x]Lesson 1: Introduction to JSON
 - [x]Lesson 2: JSON Data Types
-- [ ]Lesson 3: JSON Objects and Arrays
+- [x]Lesson 3: JSON Objects and Arrays
 - [ ]Lesson 4: Working with Nested JSON
 - [ ]Lesson 5: Introduction to JSON Serialization and Deserialization
 - [ ]Lesson 6: JSON Processing in Java with Jackson
