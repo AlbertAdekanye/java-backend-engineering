@@ -32,7 +32,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 | Phase | Topic | Status |
 |---|---|---|
 | 01 | HTTP Fundamentals and Networking | completed |
-| 02 | JSON and Java HttpClient | Not Started |
+| 02 | JSON and Java HttpClient | In Progress |
 | 03 | REST API Design | Not Started |
 | 04 | Spring Boot | Not Started |
 | 05 | Authentication and Backend Security | Not Started |
@@ -60,7 +60,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 - [x]Lesson 1: Introduction to JSON
 - [x]Lesson 2: JSON Data Types
 - [x]Lesson 3: JSON Objects and Arrays
-- [ ]Lesson 4: Working with Nested JSON
+- [x]Lesson 4: Working with Nested JSON
 - [ ]Lesson 5: Introduction to JSON Serialization and Deserialization
 - [ ]Lesson 6: JSON Processing in Java with Jackson
 - [ ]Lesson 7: Introduction to Java HttpClient
