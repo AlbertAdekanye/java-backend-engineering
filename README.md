@@ -31,7 +31,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 
 | Phase | Topic | Status |
 |---|---|---|
-| 01 | HTTP Fundamentals and Networking | In Progress |
+| 01 | HTTP Fundamentals and Networking | completed |
 | 02 | JSON and Java HttpClient | Not Started |
 | 03 | REST API Design | Not Started |
 | 04 | Spring Boot | Not Started |
@@ -42,7 +42,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 | 09 | Cloud Engineering and Deployment | Not Started |
 | 10 | Logging, Monitoring and Observability | Not Started |
 
-## Phase 1 Progress
+## Phase 1 completed
 
 - [x] Lesson 1: Understanding HTTP and How the Web Works
 - [x] Lesson 2: HTTP Requests and Responses
@@ -54,6 +54,26 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 - [x] Lesson 8: HTTP vs HTTPS
 - [x] Lesson 9: DNS, Ports, TCP and TLS
 - [x] Lesson 10: Build a Java HTTP Client/Server Application
+
+## **Phase 2: JSON and Java HttpClient**
+
+- [ ]Lesson 1: Introduction to JSON
+- [ ]Lesson 2: JSON Data Types
+- [ ]Lesson 3: JSON Objects and Arrays
+- [ ]Lesson 4: Working with Nested JSON
+- [ ]Lesson 5: Introduction to JSON Serialization and Deserialization
+- [ ]Lesson 6: JSON Processing in Java with Jackson
+- [ ]Lesson 7: Introduction to Java HttpClient
+- [ ]Lesson 8: Sending GET Requests with Java HttpClient
+- [ ]Lesson 9: Sending POST Requests with JSON
+- [ ]Lesson 10: Sending PUT and PATCH Requests
+- [ ]Lesson 11: Sending DELETE Requests
+- [ ]Lesson 12: HTTP Headers and API Authentication
+- [ ]Lesson 13: Handling HTTP Responses and Errors
+- [ ]Lesson 14: Asynchronous HTTP Requests with `sendAsync()`
+- [ ]Lesson 15: Build a Java External API Client
+
+**Phase 2 practical project:** Build a Java application that consumes an external REST API, processes JSON responses, sends requests, and handles errors.
 
 ## Main Portfolio Project
 

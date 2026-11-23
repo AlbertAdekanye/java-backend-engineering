@@ -40,16 +40,49 @@ public class Server {
 
         server.createContext("/api/messages", exchange -> {
 
-          // Read the message sent by the client
-          String requestBody = new String(
-            exchange.getRequestBody().readAllBytes(),
-            StandardCharsets.UTF_8
-          );
-
-          // Prepare the response
-          
-        });
+        if (!exchange.getRequestMethod().equals("POST")) {
         
+            String response = "Method Not Allowed";
+            byte[] responseBytes = response.getBytes(StandardCharsets.UTF_8);
+        
+            exchange.getResponseHeaders().set(
+                    "Content-Type", "text/plain; charset=UTF-8"
+            );
+    
+            exchange.sendResponseHeaders(405, responseBytes.length);
+    
+            try (var output = exchange.getResponseBody()) {
+                output.write(responseBytes);
+            }
+    
+            return;
+        }
+
+            // Read the message sent by the client
+            String requestBody = new String(
+                    exchange.getRequestBody().readAllBytes(),
+                    StandardCharsets.UTF_8
+            );
+
+            // Prepare the response
+            String response = "Server received: " + requestBody;
+
+            byte[] responseBytes = response.getBytes(StandardCharsets.UTF_8);
+
+            // Set response content type
+            exchange.getResponseHeaders().set(
+                    "Content-Type", "text/plain; charset=UTF-8"
+            );
+
+            // Send HTTP 200 response
+            exchange.sendResponseHeaders(200, responseBytes.length);
+
+            // Send response body
+            try (var output = exchange.getResponseBody()) {
+                output.write(responseBytes);
+            }
+        });
+
         // Start server
         server.start();
 
