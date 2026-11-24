@@ -55,6 +55,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 - [x] Lesson 9: DNS, Ports, TCP and TLS
 - [x] Lesson 10: Build a Java HTTP Client/Server Application
 
+
 ## **Phase 2: JSON and Java HttpClient**
 
 - [x]Lesson 1: Introduction to JSON
