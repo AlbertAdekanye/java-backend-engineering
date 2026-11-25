@@ -4,22 +4,23 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Main {
 
-  public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
 
-    // Create a Product object
-    Product product = new Product(
-      1,
-      "iphone 15",
-      650000
-    );
+        ObjectMapper mapper = new ObjectMapper();
 
-    // create ObjectMapper
-    ObjectMapper mapper = new ObjectMapper();
+        String json = """
+                {
+                    "id": 2,
+                    "name": "Samsung S24",
+                    "price": 800000
+                }
+                """;
 
-    // Convert Java object to JSON
-    String json = mapper.writeValueAsString(product);
+        // Convert JSON into a Java Product object
+        Product product = mapper.readValue(json, Product.class);
 
-    // Print JSON
-    System.out.println(json);
-  }
+        System.out.println("Product ID: " + product.getId());
+        System.out.println("Product Name: " + product.getName());
+        System.out.println("Product Price: " + product.getPrice());
+    }
 }
