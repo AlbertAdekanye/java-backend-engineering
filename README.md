@@ -63,7 +63,7 @@ Become a competent Java Backend Engineer capable of independently designing, dev
 - [x]Lesson 3: JSON Objects and Arrays
 - [x]Lesson 4: Working with Nested JSON
 - [x]Lesson 5: Introduction to JSON Serialization and Deserialization
-- [ ]Lesson 6: JSON Processing in Java with Jackson
+- [x]Lesson 6: JSON Processing in Java with Jackson
 - [ ]Lesson 7: Introduction to Java HttpClient
 - [ ]Lesson 8: Sending GET Requests with Java HttpClient
 - [ ]Lesson 9: Sending POST Requests with JSON

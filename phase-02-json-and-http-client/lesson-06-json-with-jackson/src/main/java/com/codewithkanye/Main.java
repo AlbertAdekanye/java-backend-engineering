@@ -6,21 +6,25 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        String json = """
+            {
+                "id": 1,
+                "name": "Albert",
+                "address": {
+                    "city":"Lagos",
+                    "country":"Nigeria"
+                }
+            }
+        """;
+
         ObjectMapper mapper = new ObjectMapper();
 
-        String json = """
-                {
-                    "id": 2,
-                    "name": "Samsung S24",
-                    "price": 800000
-                }
-                """;
+        User user = mapper.readValue(json, User.class);
+        
 
-        // Convert JSON into a Java Product object
-        Product product = mapper.readValue(json, Product.class);
-
-        System.out.println("Product ID: " + product.getId());
-        System.out.println("Product Name: " + product.getName());
-        System.out.println("Product Price: " + product.getPrice());
+        System.out.println(user.getId());
+        System.out.println(user.getName());
+        System.out.println(user.getAddress().getCity());
+        System.out.println(user.getAddress().getCountry());
     }
 }
